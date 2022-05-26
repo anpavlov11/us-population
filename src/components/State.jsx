@@ -13,4 +13,4 @@ const USAState = (props) => {
     </path>
   )
 }
-export default USAState
+export default USAState;

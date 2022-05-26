@@ -1,10 +1,16 @@
 h1 {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
 }
 
+body {
+  background-image: url('https://i.imgur.com/jEnGiea.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 path {
-  stroke: white;
+  stroke: rgb(194, 113, 193);
   fill:paleturquoise !important;
 
   transition: fill .4s ease;
@@ -20,11 +26,8 @@ path:hover {
 #us-map {
   display: flex;
   position: absolute;
-  justify-content: baseline;
-  top: 100;
-  left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 #details-box {
@@ -34,7 +37,7 @@ path:hover {
   border-radius: 8px;
   font-size: 24px;
   position: fixed;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Poppins";
   background-color: black;
   width: fit-content;
