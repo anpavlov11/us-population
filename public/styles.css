@@ -11,7 +11,7 @@ body {
 
 path {
   stroke: rgb(194, 113, 193);
-  fill:paleturquoise !important
+  fill:paleturquoise !important;
 
   transition: fill .4s ease;
   transform-origin: center center;
